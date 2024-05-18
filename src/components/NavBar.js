@@ -47,7 +47,7 @@ export const NavBar = () => {
             <Nav.Link href="#home" className={ activeLink === 'home' ? 'active nabvar-link' : 'navbar-link' } onClick={() =>onUpdateActiveLink('home')}>Home</Nav.Link>
             <Nav.Link href="#nosotros" className={ activeLink === 'computadoras' ? 'active nabvar-link' : 'navbar-link' } onClick={() =>onUpdateActiveLink('computadoras')}>Nosotros</Nav.Link>
             <Nav.Link href="#computadoras" className={ activeLink === 'components' ? 'active nabvar-link' : 'navbar-link' } onClick={() =>onUpdateActiveLink('components')}>Computadoras</Nav.Link>
-            <Nav.Link href="#nosotros" className={ activeLink === 'about-us' ? 'active nabvar-link' : 'navbar-link' } onClick={() =>onUpdateActiveLink('about-us')}>Extras</Nav.Link>
+            <Nav.Link href="#footer" className={ activeLink === 'about-us' ? 'active nabvar-link' : 'navbar-link' } onClick={() =>onUpdateActiveLink('about-us')}>Extras</Nav.Link>
             <NavDropdown title="Productos" className="basic-nav-dropdown color100">
               {/* <NavDropdown.Item href="/audio">Audio</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">Video</NavDropdown.Item>

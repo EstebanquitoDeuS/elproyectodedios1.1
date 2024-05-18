@@ -13,6 +13,11 @@ import { Descripcion } from './components/Descripcion';
 import { Computadoras } from './components/Computadoras';
 import { Footer } from './components/footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import {Audios1} from './components/audio/audio';
+import { Videos1 } from './components/video/video';
+import { Gaming1 } from './components/gaming/gaming';
+
+
 
 const router = createBrowserRouter([
   {
@@ -38,21 +43,27 @@ const router = createBrowserRouter([
     path: "/audio", 
     element: <> 
     <NavBar/>
-    <div>Hoals</div>
+    <div>
+      <Audios1 />
+    </div>
     </>
   },
   {
     path: "/video", 
     element: <> 
     <NavBar/>
-    <div>Hoals</div>
+    <div>
+      <Videos1 />
+    </div>
     </>
   },
   {
     path: "/gaming", 
     element: <> 
     <NavBar/>
-    <div>Hoals</div>
+    <div>
+      <Gaming1 />
+    </div>
     </>
   }
 ]);

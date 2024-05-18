@@ -89,7 +89,6 @@ nav.navbar{
   transition: 0.32 ease-in-out;
 }
 
-
 nav.navbar.scrolled{
   padding: 0px 0;
   background-color: #000000;
@@ -120,13 +119,18 @@ span.navbar-text{
   align-items: center;
 }
 
-.basic-nav-dropdown{
+.fic-nav-dropdown{
   color: rgba(38, 194, 155, 0.993);
 }
 
+
+.basic-nav-dropdown{
+  background-color: #14dbb0;
+}
 .basic-nav-dropdown:hover{
 
   color: rgb(255, 255, 255);
+  background-color: turquoise;
   transition: 0.5s ease;
 
 }
@@ -601,9 +605,9 @@ border-color: transparent;
 
 /************ Footer Css ************/
 .footer {
-  padding: 0 0 50px 0;
+  padding: 15px 550px 0 0;
   background-image: url('./assets/img/footer-bg.png');
-  background-position: center center;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -620,7 +624,7 @@ border-color: transparent;
   letter-spacing: 0.5px;
   line-height: 1.2em;
 }
-.new-email-bx {
+/* .new-email-bx {
   background: #fff;
   padding: 5px;
   border-radius: 20px;
@@ -666,18 +670,66 @@ border-color: transparent;
   font-weight: 500;
   letter-spacing: 0.5px;
   border-radius: 18px;
-}
+} */
 .footer img {
   width: 26%;
 }
 .footer p {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 14px;
   color: #B8B8B8;
   letter-spacing: 0.5px;
   margin-top: 20px;
+  text-align: center;
+  margin-left: 0%;
 }
 
 .color100{
   color:rgba(134, 199, 183, 0.993) !important; 
+}
+
+.di1v h3{
+  text-align: center;
+}
+
+.App {
+  text-align: center;
+}
+
+body {
+  background: #dcdcdc;
+  margin-top: 20px;
+}
+.card-box {
+  margin-top: 200px;
+  margin-right: 100px;
+  margin-left: 100px;
+  padding: 20px;
+  border-radius: 3px;
+  margin-bottom: 30px;
+  background-color: #fff;
+}
+
+.thumb-lg {
+  height: 88px;
+  width: 88px;
+}
+.img-thumbnail {
+  padding: 0.25rem;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  max-width: 100%;
+  height: auto;
+}
+.text-pink {
+  color: #ff679b !important;
+}
+
+.text-muted {
+  color: #98a6ad !important;
+}
+h4 {
+  line-height: 22px;
+  font-size: 18px;
 }
